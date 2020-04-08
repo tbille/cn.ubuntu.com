@@ -1,7 +1,6 @@
 from canonicalwebteam.blog import BlogViews
 from canonicalwebteam.blog.flask import build_blueprint
 from canonicalwebteam.flask_base.app import FlaskBase
-from canonicalwebteam.templatefinder import TemplateFinder
 import yaml
 
 app = FlaskBase(
